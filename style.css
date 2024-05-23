@@ -79,6 +79,8 @@
     body > div >h2{
         font-family: var(--font);
         font-weight: bold;
+        font-style: italic;
+        font-size: x-large;
     }
     
     footer{
@@ -170,6 +172,8 @@
     body > div >h2{
         font-family: var(--font);
         font-weight: bold;
+        font-style: italic;
+        font-size: xx-large;
     }
     
     footer{
@@ -261,6 +265,8 @@
     body > div >h2{
         font-family: var(--font);
         font-weight: bold;
+        font-style: italic;
+        font-size: xx-large;
     }
     
     footer{
