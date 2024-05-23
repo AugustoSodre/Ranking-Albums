@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fundo_header: #00224D;
+    --fundo_body: #F69E7B;
+    --realce: #000000;
+    --fundo_footer: #00224D;
+
+    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}   
+
+
+@media screen and (max-width: 850px){
+    header{
+        padding: 20px;
+        background-color: var(--fundo_header);
+    }
+    
+    header > div{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        color: var(--fundo_footer);
+        color: var(--fundo_body);
+        font-family: var(--font);
+        font-size: larger;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    body > div{
+        padding: 30px;
+        background-color: var(--fundo_body);
+        color: var(--realce);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .element{
+        padding: 30px;
+        background-color: var(--fundo_body);
+        color: var(--realce);
+        display: flex;
+        align-items:center;
+        justify-content: left;
+        flex-direction: column;
+    }
+    
+    .element > div > iframe{
+        width: 452px;
+        height: 152px;
+    }
+    
+    .elementText{
+        padding: 5%;
+        padding-bottom: 100px;
+    }
+    
+    
+    .elementText > h3{
+        text-align: center;
+        font-family: var(--font);
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .elementText > p {
+        text-align: justify;
+        font-family: var(--font);
+        font-weight: bolder;
+        padding: 2%;
+    }
+    
+    body > div >h2{
+        font-family: var(--font);
+        font-weight: bold;
+    }
+    
+    footer{
+        color: white;
+        padding: 20px;
+        background-color: var(--fundo_footer);
+        display: flex;
+        align-items: baseline;
+        justify-content:space-around;
+    }
+    
+    footer >div{
+        font-family: var(--font);
+        font-weight:lighter;    
+        font-style: italic;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    footer > p{ 
+        font-family: var(--font);
+        font-weight: medium; 
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width:1023px){
+    header{
+        padding: 20px;
+        background-color: var(--fundo_header);
+    }
+    
+    header > div{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        color: var(--fundo_footer);
+        color: var(--fundo_body);
+        font-family: var(--font);
+        font-size: larger;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    body > div{
+        padding: 30px;
+        background-color: var(--fundo_body);
+        color: var(--realce);
+        display: flex;
+        align-items:center;
+        justify-content: left;
+    }
+    
+    .element{
+        padding: 30px;
+        background-color: var(--fundo_body);
+        color: var(--realce);
+        display: flex;
+        align-items:center;
+        justify-content: left;
+    
+    }
+    
+    .element > div > iframe{
+        width: 352px;
+        height: 352px;
+    }
+    
+    .elementText{
+        padding: 5%;
+    }
+    
+    
+    .elementText > h3{
+        text-align: center;
+        font-family: var(--font);
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .elementText > p {
+        text-align: justify;
+        font-family: var(--font);
+        font-weight: bolder;
+        padding: 2%;
+    }
+    
+    body > div >h2{
+        font-family: var(--font);
+        font-weight: bold;
+    }
+    
+    footer{
+        color: white;
+        padding: 20px;
+        background-color: var(--fundo_footer);
+        display: flex;
+        align-items: baseline;
+        justify-content:space-around;
+    }
+    
+    footer >div{
+        font-family: var(--font);
+        font-weight:lighter;    
+        font-style: italic;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    footer > p{ 
+        font-family: var(--font);
+        font-weight: medium; 
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    header{
+        padding: 20px;
+        background-color: var(--fundo_header);
+    }
+    
+    header > div{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        color: var(--fundo_footer);
+        color: var(--fundo_body);
+        font-family: var(--font);
+        font-size: larger;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    body > div{
+        padding: 30px;
+        background-color: var(--fundo_body);
+        color: var(--realce);
+        display: flex;
+        align-items:center;
+        justify-content: left;
+    }
+    
+    .element{
+        padding: 30px;
+        background-color: var(--fundo_body);
+        color: var(--realce);
+        display: flex;
+        align-items:center;
+        justify-content: left;
+    
+    }
+    
+    .element > div > iframe{
+        width: 552px;
+        height: 352px;
+    }
+    
+    .elementText{
+        padding: 5%;
+    }
+    
+    
+    .elementText > h3{
+        text-align: center;
+        font-family: var(--font);
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .elementText > p {
+        text-align: justify;
+        font-family: var(--font);
+        font-weight: bolder;
+        padding: 2%;
+    }
+    
+    body > div >h2{
+        font-family: var(--font);
+        font-weight: bold;
+    }
+    
+    footer{
+        color: white;
+        padding: 20px;
+        background-color: var(--fundo_footer);
+        display: flex;
+        align-items: baseline;
+        justify-content:space-around;
+    }
+    
+    footer >div{
+        font-family: var(--font);
+        font-weight:lighter;    
+        font-style: italic;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    footer > p{ 
+        font-family: var(--font);
+        font-weight: medium; 
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+
