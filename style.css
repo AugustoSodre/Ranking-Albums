@@ -5,10 +5,10 @@
 }
 
 :root{
-    --fundo_header: #00224D;
-    --fundo_body: #F69E7B;
-    --realce: #000000;
-    --fundo_footer: #00224D;
+    --fundo_header: #0C134F;
+    --fundo_body: #5C469C;
+    --realce: #D4ADFC;
+    --fundo_footer: #0C134F;
 
     --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }   
@@ -24,8 +24,7 @@
         display: flex;
         align-items: center;
         justify-content:space-evenly;
-        color: var(--fundo_footer);
-        color: var(--fundo_body);
+        color: var(--realce);
         font-family: var(--font);
         font-size: larger;
         font-weight: bold;
@@ -52,7 +51,7 @@
     }
     
     .element > div > iframe{
-        width: 100%;
+        width: 452px;
         height: 152px;
     }
     
@@ -79,8 +78,6 @@
     body > div >h2{
         font-family: var(--font);
         font-weight: bold;
-        font-style: italic;
-        font-size: x-large;
     }
     
     footer{
@@ -118,8 +115,7 @@
         display: flex;
         align-items: center;
         justify-content:space-evenly;
-        color: var(--fundo_footer);
-        color: var(--fundo_body);
+        color: var(--realce);
         font-family: var(--font);
         font-size: larger;
         font-weight: bold;
@@ -137,11 +133,10 @@
     
     .element{
         padding: 30px;
-        padding-bottom: 120px;
         background-color: var(--fundo_body);
         color: var(--realce);
         display: flex;
-        align-items:flex-start;
+        align-items:center;
         justify-content: left;
     
     }
@@ -152,9 +147,7 @@
     }
     
     .elementText{
-        padding-bottom: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding: 5%;
     }
     
     
@@ -175,7 +168,6 @@
     body > div >h2{
         font-family: var(--font);
         font-weight: bold;
-        font-size: x-large;
     }
     
     footer{
@@ -213,8 +205,7 @@
         display: flex;
         align-items: center;
         justify-content:space-evenly;
-        color: var(--fundo_footer);
-        color: var(--fundo_body);
+        color: var(--realce);
         font-family: var(--font);
         font-size: larger;
         font-weight: bold;
@@ -232,11 +223,10 @@
     
     .element{
         padding: 30px;
-        padding-bottom: 120px;
         background-color: var(--fundo_body);
         color: var(--realce);
         display: flex;
-        align-items:flex-start;
+        align-items:center;
         justify-content: left;
     
     }
@@ -247,9 +237,7 @@
     }
     
     .elementText{
-        padding-bottom: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding: 5%;
     }
     
     
@@ -270,8 +258,6 @@
     body > div >h2{
         font-family: var(--font);
         font-weight: bold;
-        font-style: italic;
-        font-size: xx-large;
     }
     
     footer{
